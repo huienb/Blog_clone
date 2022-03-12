@@ -1,0 +1,462 @@
+* {
+    font-family: 'Lato', sans-serif;
+    font-size: 15px;
+    color: #777;
+    box-sizing: border-box;
+    line-height: 1.8;
+}
+
+/*Header*/
+.navbar{
+    padding: 0;
+    background-color: transparent;
+}
+
+.header_item{
+    text-transform: uppercase;
+    color: #777;
+    padding: 8px 16px !important;
+    text-align: left;
+}
+
+.header_search{
+    color: #777;
+    height: 43px !important;
+    position: absolute;
+    right: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.header_item:hover{
+    background-color: #d8d8d8;
+    text-decoration: none;
+    color: #000;
+}
+
+.header_item:hover .navbar_hover{
+    color: #000;
+}
+
+.header_search:hover{
+    background-color: #fe2e46;
+    text-decoration: none;
+    color: #fff !important;
+}
+
+.header_search:hover i{
+    color: #fff;
+}
+
+/*End header*/
+
+
+/*Body*/
+/* Jumbotron */
+#homepage_img{
+    background: url(https://www.w3schools.com/w3images/parallax1.jpg) no-repeat;
+    background-attachment: scroll;
+    background-position: center;
+    background-size: cover;
+    padding: 0;
+    margin: 0;
+    height: 400px;
+    width: 100%;
+    opacity: 0.8;
+}
+
+#homepage_surrounding{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    height: 400px;
+
+}
+
+.homepage_text {
+    font-size: 24px;
+    color: #fff;
+    text-transform: uppercase;
+    background-color: #000;
+    background-size: contain;
+    padding: 12px 24px;
+    margin-left: auto;
+    margin-right: auto;
+    letter-spacing: 10px;
+    display: inline-block;
+}
+/* End jumbotron */
+/* About me */
+#about_me, #my_work, #contact{
+    margin: 0;
+    padding: 64px 16px;
+    max-width: 950px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#title1, #title4, #title6{
+    margin: 10px 0;
+    text-transform: uppercase;
+    font-size: 24px;
+    text-align: center;
+}
+
+#sub_title1_1, #sub_title4, #sub_title6{
+    margin: 15px 0;
+    text-align: center;
+    font-style: italic;
+}
+
+#about_me_p1_text{
+    margin: 15px 0;
+    text-align: justify;
+}
+
+#about_me_p2{
+    display: flex;
+}
+
+.about_me_p2_content{
+    flex: 50%;
+    padding: 12px 24px;
+}
+
+.about_me_p2_content i{
+    margin-right: 16px;
+}
+
+#sub_title1_2{
+    margin: 15px 0;
+    text-align: center;
+    font-weight: bold;
+}
+
+#about_me_p2 img{
+    max-width: 100%;
+    height: auto;
+    opacity: 0.6;
+    margin: 15px 0;
+}
+
+#about_me_p2 img:hover{
+    opacity: 1;
+}
+
+#about_me_p2_text{
+    text-align: justify;
+}
+
+#sub_title1_3{
+    text-align: center;
+    font-size: 18px;
+    padding: 16px 0;
+    margin: 18px 0;
+}
+
+.p3_skills{
+    margin: 15px 0;
+    letter-spacing: 10px;
+}
+
+.p3_bars{
+    background-color: #f1f1f1;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+.p3_skill_photography{
+    width: 90%;
+    text-align: center;
+    color: #fff;
+    background-color: #616161;
+    padding: 0;
+}
+
+.p3_skill_web{
+    width: 85%;
+    text-align: center;
+    color: #fff;
+    background-color: #616161;
+    padding: 0;
+}
+
+.p3_skill_photoshop{
+    width: 75%;
+    text-align: center;
+    color: #fff;
+    background-color: #616161;
+    padding: 0;
+}
+/* End about me */
+
+/* Numbers */
+.numbers{
+    margin: 0;
+    padding: 16px 0;
+    background-color: #616161;
+    width: 100%;
+    display: table;
+}
+
+.number_details{
+    display: table-cell;
+    width: 25%;
+    padding: 16px 0;
+}
+
+.table_number{
+    color: #fff;
+    text-align: center;
+    font-size: 24px;
+}
+
+.table_text{
+    color: #fff;
+    text-align: center;
+}
+/* End numbers */
+#porfolio_img{
+    background: url(https://www.w3schools.com/w3images/parallax2.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: scroll;
+    height: 400px;
+    opacity: 0.75;
+}
+
+#title3, #title5{
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 36px;
+    letter-spacing: 10px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 400px;
+}
+/* porfolio */
+.col-sm-3{
+    padding: 0;
+}
+
+#photos img{
+    margin: 0;
+    padding: 8px 8px;
+    width: 100%;
+}
+
+#photos img:hover{
+    opacity: 0.6;
+}
+
+#button_load{
+    margin-top: 64px;
+    display: flex;
+    justify-content: center;
+}
+
+#load{
+    text-transform: uppercase;
+    color: #000;
+    padding: 12px 24px;
+    border: none;
+}
+
+#load:hover{
+    background-color: #bdbdbd;
+}
+/* End porfolio */
+
+/* Contact */
+#contact_img{
+    background: url(https://www.w3schools.com/w3images/parallax3.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: scroll;
+    height: 400px;
+    opacity: 0.75;
+}
+
+#contact_content{
+    display: flex;
+    margin: 16px 0;
+    padding: 32px 0;
+    position: relative;
+}
+
+#contact_map{
+    flex: 33.3%;
+    padding: 0 16px;
+}
+
+#contact_map img{
+    max-width: 100%;
+    height: auto;
+    border-radius: 4px;
+}
+
+.contact_details{
+    flex: 66.6%;
+    margin: 16px 0;
+    padding: 0 16px;
+}
+
+.contact_info{
+    font-size: 18px;
+}
+
+.contact_details a i{
+    margin-right: 16px;
+    font-size: 18px;
+}
+
+.contact_hover:hover{
+    color: #000;
+}
+
+.contact_details p{
+    margin: 15px 0;
+}
+
+.contact_details input{
+    padding: 8px;
+    border: 1px solid #ccc;
+}
+
+#form{
+    margin-bottom: 8px;
+    display: flex;
+}
+
+#name, #email{
+    flex: 50%;
+    padding: 0 16px;
+}
+
+#form input{
+    width: 100%;
+}
+
+#message{
+    width: 100%;
+}
+
+#send{
+    background-color: #000;
+    text-transform: uppercase;
+    margin: 16px 0;
+    position: absolute;
+    right: 16px;
+    padding: 8px 16px;
+}
+
+.send_mes {
+    color: #fff;
+    font-size: 15px;
+}
+
+#send:hover{
+    background-color: #bdbdbd;
+    border: none;
+}
+
+#send:hover .send_mes{
+    color: #000;
+}
+/* End contact */
+/*End body*/
+
+
+/*Footer*/
+footer{
+    padding: 64px 0;
+    background-color: #000000;
+    opacity: 0.6;
+}
+
+footer:hover{
+    opacity: 1;
+}
+
+#button{
+    display: flex;
+    justify-content: center;
+    margin: 0;
+}
+
+#top{
+    padding: 8px 16px;
+    border: none; 
+}
+
+#top i{
+    margin-right: 16px;
+}
+
+#top a:hover{
+    text-decoration: none;
+}
+
+#top:hover{
+    background-color: #fff;
+}
+
+#icons{
+    margin: 16px 0;
+    text-align: center;
+    font-size: 24px;
+}
+
+.social{
+    font-size: 24px;
+    color: #fff;
+}
+
+#link_w3{
+    color: #fff;
+    margin: 15px 0;
+    text-align: center;
+}
+
+#link_w3 a{
+    text-decoration: underline;
+    color: #fff;
+}
+
+#link_w3 a:hover{
+    color: green;
+}
+/*End footer*/
+
+
+/*Responsive*/ 
+/* extra small screen */
+@media (max-width: 576px){
+.navbar-nav{
+    background-color: #fff;
+}
+
+.navbar_hover{
+    color: #000;
+}
+
+
+#abt_me_p2_img{
+    flex: 100%;
+}
+
+#abt_me_p2_pass{
+    display: none;
+}
+
+.number_details{
+    display: table-row;
+    width: 100%;
+}
+}
+/*End responsive*/
