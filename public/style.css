@@ -29,6 +29,10 @@
     justify-content: center;
 }
 
+.navbar_search_text{
+    display: none;
+}
+
 .header_item:hover{
     background-color: #d8d8d8;
     text-decoration: none;
@@ -86,6 +90,10 @@
     margin-right: auto;
     letter-spacing: 10px;
     display: inline-block;
+}
+
+#homepage_name2{
+    display: none;
 }
 /* End jumbotron */
 /* About me */
@@ -369,6 +377,42 @@
     color: #000;
 }
 /* End contact */
+
+/* Overlay */
+#overlay{
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #000;
+    display: none;
+}
+#overlay_close{
+    font-size: 18px;
+    position: absolute;
+    right: 0;
+    color: #fff;
+    padding: 8px 16px;
+}
+
+#img_surround{
+    margin-top: 100px;
+    padding-top: 64px;
+    display: flex;
+    justify-content: center;
+}
+
+#overlay_close:hover{
+    background-color: #616161;
+    color: #000;
+}
+
+#img_name{
+    margin: 18px 0;
+    font-size: 18px;
+    text-align: center;
+}
 /*End body*/
 
 
@@ -437,7 +481,8 @@ footer:hover{
 /*Responsive*/ 
 /* extra small screen */
 @media (max-width: 576px){
-.navbar-nav{
+/* header */
+    .navbar-nav{
     background-color: #fff;
 }
 
@@ -445,6 +490,43 @@ footer:hover{
     color: #000;
 }
 
+.navbar_icon{
+    display: none;
+}
+
+.header_search{
+    left: 0;
+    background-color: #fff;
+}
+
+.navbar_search_text{
+    display: block;
+    color: #000;
+    text-align: left;
+}
+
+.navbar-toggler{
+    height: 43px !important;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border: none;
+}
+
+.navbar-toggler:hover{
+    background-color: #000;
+    border-radius: 0;
+}
+/* End header */
+
+/* Main */
+#homepage_name1{
+    display: none;
+}
+
+#homepage_name2{
+    display: block;
+}
 
 #abt_me_p2_img{
     flex: 100%;
@@ -458,5 +540,6 @@ footer:hover{
     display: table-row;
     width: 100%;
 }
+/* End main */
 }
 /*End responsive*/
